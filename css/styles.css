@@ -414,8 +414,12 @@ main {
 }
 
 @media (max-width: 768px) {
+    .old-price{
+        font-size: 0.7rem;
+    }
+
     .promo-price {
-        font-size: medium;
+        font-size: 0.9rem;
     }
 
     .card-img-top {
@@ -546,8 +550,8 @@ main {
         width: 100%;
     }
 
-    .card-title {
-        font-size: 1rem;
+    .card-title, .card-text.isbn {
+        font-size: 0.7rem;
     }
 
     #text-katalog-buku {
